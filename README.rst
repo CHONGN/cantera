@@ -34,30 +34,28 @@ How to install?
 
 Following us:
 
-1、Install python2.7 and `some other modules according to requirements <https://cantera.org/compiling/installation-reqs.html>`_ in advance
+1、Install python2.7 firstly and some supporting modules which has listed in requirements <https://cantera.org/compiling/installation-reqs.html>
 (eg.  g++).
 
-2、Git cantera source code form github directly.
+2、Download source code of cantera from github.
 command: git clone https://github.com/CHONGN/master_cantera
 
-2、Install scons using command.
+2、Install module of "scons".
 
-3、`Use scons to install source code of cantera <https://cantera.org/compiling/configure-build.html>`_.
+3、Install cantera <https://cantera.org/compiling/configure-build.html>:
 
-Firstly, move on to your cantera directory through terminal command. eg. command：cd master_cantera/cantera2.4b/.
+Firstly, make sure it works at cantera directory. Command：cd master_cantera/cantera2.4b/.
 
-Then, use scons to build environment through terminal command. eg. command：(sudo) scons build.
+Then, build environment. Command：(sudo) scons build.
 
-Lastly, to install cantera through terminal command. eg. command：(sudo) scons install. 
+Lastly, install cantera. Command：(sudo) scons install. 
 
 Examples?
 =============
-This module here is mainly used in FPV, Flamelet progress variable model.
-(eg: ...........)
 
 Reference
 =============
-[1] `Briones, Alejandro M., et al. "Combustion Modeling Software 
+[1] Briones, Alejandro M., et al. "Combustion Modeling Software 
 Development, Verification and Validation." ASME 2018 Power Conference
 collocated with the ASME 2018 12th International Conference on Energy
 Sustainability and the ASME 2018 Nuclear Forum. American Society of 
