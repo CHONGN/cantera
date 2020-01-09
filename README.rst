@@ -25,8 +25,8 @@ What is the special for master cantera?
 ============
 
 Master cantera, one of modified cantera, was modified by us to 
-caculate one-dimentional combustion on Linux. Based on Alejandro M. 
-Briones et al.[1], one- and two- point continuation methods[2] have been
+caculate one-dimentional combustion on Linux. Based on works of Alejandro M. 
+Briones et al.[1], two-point continuation method[2] has been
 merged by us to gain s-curve perfectly, which considers ignition and extinction here.
 
 How to install?
